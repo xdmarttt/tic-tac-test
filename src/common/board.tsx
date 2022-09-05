@@ -10,7 +10,7 @@ const Board = () => {
                             <span className="board__node">X</span><br />
                         </Fragment>
                 }
-                return <span>X</span>
+                return <span className="board__node">X</span>
             })   
         }    
     </div>
