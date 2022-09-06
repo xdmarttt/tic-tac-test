@@ -1,5 +1,9 @@
 .board {
-  &__node {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  &__square {
     border: solid 1px #000;
+    height: 40px;
   }
 }
